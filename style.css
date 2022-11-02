@@ -1,0 +1,92 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+nav{
+    background-color:blue;
+    color: white;
+    height: 50px;
+    font-size: 27px;
+    display: flex;
+    align-items: center;
+    padding: 12px;
+    font-family: sans-serif;
+}
+
+nav ul{
+    list-style-type: none;
+}
+
+.gameContainer{
+    background-color:white;
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    position: relative;
+
+}
+
+.container{
+    display: grid;
+    grid-template-rows: repeat(3,12vw);
+    grid-template-columns: repeat(3,12vw);
+    font-family: sans-serif;
+    position: relative;
+
+}
+.box{
+    border: 1px solid black;
+    font-size: 8vw;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+}
+
+.box:hover{
+    background-color: rgb(177, 165, 18915, 248);
+}
+.info{
+    font-size: 22px;
+}
+.gameinfo{
+    padding: 0 34px;
+    font-family: cursive;
+}
+.imgbox{
+    width:0;
+    transition: width 1s ease-in-out;
+}
+.br-0{
+    border-right: 0;
+
+}
+
+.bl-0{
+    border-left: 0;
+    
+}
+
+.bt-0{
+    border-top: 0;
+    
+}
+
+.bb-0{
+    border-bottom: 0;
+    
+}
+#reset{
+    margin:0,23px ;
+    padding: 15px 20px;
+    background: rgb(236, 88, 236);
+    border-radius: 20px;
+    cursor: pointer;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 15px;
+    font-weight: 25px;
+
+}
+
+
+
